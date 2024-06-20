@@ -34,6 +34,12 @@ public class AddContact extends JFrame {
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
 
+        //-------------------Image Icon------------------------
+
+        ImageIcon image = new ImageIcon("download (1).png");
+        image.setDescription("IDK");
+        setIconImage(image.getImage());
+
         //----------------------panel-----------------------------
 
         homepanel = new JPanel(new GridLayout(2,2));
@@ -125,6 +131,8 @@ public class AddContact extends JFrame {
         homepanel.add(textfpanel);
         homepanel.add(btnpanel);
         homepanel.add(canclepPanel);
+
+        
         //---------------------add homepanel to frame--------------------
         add(homepanel);
 

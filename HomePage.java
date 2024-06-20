@@ -49,7 +49,9 @@ class HomePage extends JFrame{
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         getContentPane().setBackground(Color.LIGHT_GRAY);
-        
+
+//-------------------Image Icon------------------------
+
 
        ImageIcon image = new ImageIcon("download (1).png");
        image.setDescription("IDK");
